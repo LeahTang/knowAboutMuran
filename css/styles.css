@@ -7,7 +7,8 @@ body {
 
 footer {
   text-align: center;
-  margin: auto;
+  margin: 50px;
+  width: auto;
   border-top-color: #E0D8B0;
 }
 
@@ -26,7 +27,6 @@ h1 {
 }
 
 h2 {
-  margin: 20px;
   padding-top: 30px;
   font-size: 30px;
   color: #FCFFE7;
@@ -63,6 +63,9 @@ ul {
   width: auto;
 }
 
+.education-wrapper {
+  margin-bottom: 50px;
+}
 
 .education-img-wrapper {
   margin-left: 150px;
@@ -75,7 +78,7 @@ ul {
 }
 
 .education-img-item {
-  width: 400px;
+  width: auto;
   align-items: center;
 }
 
@@ -165,13 +168,15 @@ ul {
   padding-left: 1.5vw;
   padding-right: 1.5vw;
   margin: 30px;
+  border-bottom: solid;
 }
 
 .header-title {
-  font-size: 45px;
+  font-size: 30px;
   flex-grow: 0;
   flex-shrink: 0;
   width: auto;
+  margin-left: 20px;
 }
 
 .header-title :hover {
@@ -179,7 +184,7 @@ ul {
 }
 
 .header-nav-wrapper {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: auto;
   text-align: right;
   padding-left: 45vw;
@@ -209,6 +214,10 @@ ul {
   color: #D7B19D;
 }
 
+.leah-profile-img {
+  width: auto;
+}
+
 .message-wrapper {
   margin-top: 10px;
   width: auto;
@@ -231,6 +240,61 @@ ul {
   width: auto;
 }
 
+.profile-wrapper {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: auto;
+}
+
+.profile-content-wrapper {
+  margin: 30px;
+}
+
+.work-wrapper {
+  margin-bottom: 50px;
+}
+
+.work-content-wrapper {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: auto;
+  display: flex;
+}
+
+.work-item-wrapper {
+  margin-left: 40px;
+  margin-right: 40px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.work-item-wrapper :hover {
+  width: 150px;
+}
+
+.work-img {
+  width:100px;
+}
+
+.work-link {
+  color: #FCFFE7;
+  text-decoration: none;
+}
+
+.work-link :hover{
+  color: #D7B19D;
+}
 
 /*************************ID SELECTORS***************************/
 #contact-form {
