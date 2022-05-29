@@ -1,0 +1,248 @@
+/*************************TAG SELECTORS*************************/
+body {
+  background-color: #402218;
+  color: #FCFFE7;
+  font-family: "Optima", sans-serif;
+}
+
+footer {
+  text-align: center;
+  margin: auto;
+  border-top-color: #E0D8B0;
+}
+
+hr {
+  border-style: none;
+  border-bottom-color: #E0D8B0;
+  border-bottom-style: dotted;
+  border-width: 5px;
+  width: 10%;
+}
+
+h1 {
+  font-size: 50px;
+  color: #FCFFE7;
+  font-family: "Marker Felt", fantasy;
+}
+
+h2 {
+  margin: 20px;
+  padding-top: 30px;
+  font-size: 30px;
+  color: #FCFFE7;
+  font-family: "Marker Felt", fantasy;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*************************CLASS SELECTORS************************/
+.content-wrapper {
+  padding-top: 8vmax;
+  padding-bottom: 8vmax;
+  padding-right: 23.5vw;
+  padding-left: 26.5vw;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+}
+
+.email-wrapper {
+  margin-top: 10px;
+  width: auto;
+}
+
+.email-text {
+  margin: 10px;
+  margin-left: 35px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 2px;
+  height: 30px;
+  width: auto;
+}
+
+
+.education-img-wrapper {
+  margin-left: 150px;
+  margin-right: 150px;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.education-img-item {
+  width: 400px;
+  align-items: center;
+}
+
+.education-ncl-wrapper {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+}
+
+.education-uic-wrapper {
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+}
+
+.education-title {
+  width: 400px;
+}
+
+.formName-wrapper {
+  margin-top: 15px;
+  width: auto;
+}
+
+.formTitle {
+  margin: 25px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.formName-content-wrapper {
+  flex: 1 0 100%;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-left: 20px;
+  display: flex;
+  width: auto;
+}
+
+.formName-content-item {
+  margin-left: 15px;
+
+}
+
+.formName-textarea {
+  width: auto;
+  height: 30px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 2px;
+}
+
+.formName-label {
+  font-size: 15px;
+}
+
+.form-submit {
+  margin-top: 10px;
+  width: auto;
+}
+
+.form-submit-button {
+  margin-left: 35px;
+  margin-bottom: 20px;
+  background-color: #CE9461;
+  border: 1px #CE9461;
+  border-radius: 2px;
+  width: 150px;
+  height: 80px;
+  font-size: 20px;
+  color: #FCFFE7;
+}
+
+.header-title-nav-wrapper {
+  font-family: "Marker Felt", fantasy;
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 1 0 100%;
+  align-items: center;
+  width: auto;
+  padding-bottom: 2.5vw;
+  padding-top: 20px;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  margin: 30px;
+}
+
+.header-title {
+  font-size: 45px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: auto;
+}
+
+.header-title :hover {
+  color: #D7B19D;
+}
+
+.header-nav-wrapper {
+  font-size: 30px;
+  margin-left: auto;
+  text-align: right;
+  padding-left: 45vw;
+  width: auto;
+}
+
+.header-nav-item {
+  padding-right: 4vw;
+  width: auto;
+}
+
+.header-nav-item :hover {
+  color: #D7B19D;
+  text-decoration: underline;
+}
+
+.item-link {
+  text-decoration: none;
+  color: #FCFFE7;
+}
+
+.in-text-link {
+  color: #E0D8B0;
+}
+
+.in-text-link :hover {
+  color: #D7B19D;
+}
+
+.message-wrapper {
+  margin-top: 10px;
+  width: auto;
+}
+
+.msg-text {
+  margin: 10px;
+  margin-left: 35px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 2px;
+  height: 100px;
+  width: auto;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: auto;
+}
+
+
+/*************************ID SELECTORS***************************/
+#contact-form {
+  border-style: solid;
+  border-color: #E0D8B0;
+  border-width: 2px;
+  border-radius: 2px;
+  font-size: 20px;
+  width: auto;
+}
+
+#index-content-wrapper {
+  padding-right: 13.5vw;
+  padding-left: 16.5vw;
+}
