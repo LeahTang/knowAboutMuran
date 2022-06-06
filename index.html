@@ -1,114 +1,81 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
 
 <head>
   <meta charset="utf-8">
-  <title>Leah Tang</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="favicon" href="favicon.ico?v=2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-
-  <div class="section-top-container">
-    <div class="section-top-wrapper">
-      <div class="section-top-language-container">
-        <a href="index-chinese.html">
-          <img class="language" src="image/language.png" alt="language-icon"></a>
+<body class="my-site">
+  <section class="section-navbar">
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand site-title" href="" style="font-size: 2rem;">Know about Muran</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item header-nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item header-nav-item">
+              <a class="nav-link" href="">Skills</a>
+            </li>
+            <li class="nav-item header-nav-item">
+              <a class="nav-link" href="">Educations</a>
+            </li>
+            <li class="nav-item header-nav-item">
+              <a class="nav-link" href="">Work</a>
+            </li>
+            <li class="nav-item header-nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item dropdown header-nav-item">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Language
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item header-nav-item" href="index.html">English</a></li>
+                <li><a class="dropdown-item header-nav-item" href="">中文</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+  </section>
 
-      <div class="section-top-content-container">
-        <h1>I'm Leah.</h1>
-        <p>a programmer.</p>
-      </div>
-
-      <div class="section-top-img-container">
-        <img class="section-top-img" src="image/ncl-img.png" alt="ncl-img">
-      </div>
-    </div>
-  </div>
-
-
-  <div class="section-profile-container">
-    <div class="section-profile-wrapper">
-      <img class="profile-img" src="image/Leah(min)m.png" alt="profile-image">
-      <p class="profile-content"> I am a stage 2 computer science student, an active learner, an
-        observer believes all problems can be solved as long as study
-        and study hard. A person serious about both work and study and can always
-        complete tasks on time and efficiently. Have experience on software engineering
-        in the team with five people. Got a summer internship in the world’s largest
-        mobile payment platform company,
-        <a class="in-text-link" href="https://global.alipay.com/platform/site/ihome">Alipay</a>.
-        Very interest about learning
-        new programming languages.
+  <section class="page-section">
+    <div class="container-fluid content-wrapper">
+      <h2>My name is Muran Tang. I'm a programmer.</h2>
+      <p class="text-start fs-4">
+        <em>I'm currently avaliable for </em>
+        <a class="section-about-link" href="leahtang21@outlook.com"><em>placement or internship</em></a>
+        <em>.</em>
       </p>
     </div>
-  </div>
+  </section>
 
-
-  <div class="section-skills-container">
-    <div class="section-skills-wrapper">
-      <div class="section-title-wrapper">
-        <img class="section-icon" src="image/skills.png" alt="skills-icon">
-        <h2 class="section-title">Skills</h2>
+  <section class="page-section">
+    <div class="d-flex flex-row content-wrapper">
+      <div class="p-2"  style="max-width: 70%;">
+        <img src="image/profile-img.png" class="img-fluid" alt="profile-image">
       </div>
-      <div class="section-skills-content">
-        <p>dasldjlajdlkasdlknaldnlandlnalndlakndlnalnlkad.</p>
+      <div class="p-2">
+        <p class="content-small text-lg-start">I'm studing in Newcastle University. For me, major in computer
+          science isn't just for advance study, but more about fun.</p>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="section-education-container">
-    <div class="section-education-wrapper">
-      <div class="section-title-wrapper">
-        <img class="section-icon" src="image/education.png" alt="eduction-icon">
-        <h2 class="section-title">Educations</h2>
-      </div>
-      <div class="section-education-content">
-        <p>aldhalsjdlasjdlajsdlasjdljsljalkjda.dadjlajdlajdjajd</p>
-      </div>
-    </div>
-  </div>
 
-  <div class="section-work-container">
-    <div class="section-work-wrapper">
-      <div class="section-title-wrapper">
-        <img class="section-icon" src="image/work.png" alt="work-icon">
-        <h2 class="section-title">Work Experience</h2>
-      </div>
-      <div class="section-work-experience-content">
-        <p>askjdlajdlkjaldjaldlkas.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section-more-about-container">
-    <div class="section-more-about-wrapper">
-      <div class="section-title-wrapper">
-        <img class="section-icon" src="image/info.png" alt="info-icon">
-        <h2 class="section-title">More About Leah</h2>
-      </div>
-      <div class="section-more-about-content">
-        <p>sadhlakdlasjdlkjaldjaldjaldksl.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer-wrapper">
-    <h2 class="footer-title">Get In Touch</h2>
-    <div class="footer-link-wrapper">
-      <a class="footer-link" href="contact.html">
-        <img class="footer-icon" src="image/email.png" alt="contact-me-icon"></a>
-      <a class="footer-link" href="https://www.linkedin.com">
-        <img class="footer-icon" src="image/linkedin.png" alt="linkedin-icon"></a>
-      <a class="footer-link" href="https://www.twitter.com">
-        <img class="footer-icon" src="image/twitter.png" alt="twitter-icon"></a>
-    </div>
-    <p class="copy-right">© 2022 Muran Tang</p>
-  </div>
 
 </body>
 
