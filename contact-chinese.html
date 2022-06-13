@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="cn">
   <section class="section-navbar">
     <!-- Nav Bar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
@@ -25,15 +25,15 @@
         <div class="collapse navbar-collapse text-center" id="navbarToggler01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item header-nav-item">
-              <a class="nav-link" href="index.html">About</a>
+              <a class="nav-link" href="index-chinese.html">关于</a>
             </li>
             <li class="nav-item dropdown header-nav-item">
               <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Language
+                语言
               </a>
-              <ul class="dropdown-menu text-center bg-black" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item header-nav-item text-white" href="index.html">English</a></li>
-                <li><a class="dropdown-item header-nav-item text-white cn" href="chinese-index.html">中文</a></li>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item header-nav-item" href="index.html">English</a></li>
+                <li><a class="dropdown-item header-nav-item" href="chinese-index.html">中文</a></li>
               </ul>
             </li>
           </ul>
@@ -44,7 +44,7 @@
 
   <section class="page-title-section">
     <div class="container-fluid content-wrapper-contact">
-      <h2>Get in touch.</h2>
+      <h2>联系方式.</h2>
       <p class="text-start fs-5">
         leahtang21@outlook.com
       </p>
@@ -54,34 +54,34 @@
   <section class="page-section-contact">
     <form action="index.html" method="post">
       <div class="mb-4">
-        <label for="Name" class="form-label">Name*</label>
+        <label for="Name" class="form-label">姓名*</label>
         <div id="Name" class="row">
           <div class="col">
             <input type="text" class="form-control" id="firstname" aria-describedby="firstnameHelp" required="required">
             <div class="form-text text-white" id="firstnameHelp">
-              First Name
+              名
             </div>
           </div>
           <div class="col">
             <input type="text" class="form-control" id="surname" aria-describedby="surnameHelp" required="required">
             <div class="form-text text-white" id="surnameHelp">
-              Surname
+              姓
             </div>
           </div>
         </div>
       </div>
 
       <div class="mb-4">
-        <label for="email" class="form-label">Email*</label>
+        <label for="email" class="form-label">邮箱*</label>
         <input type="email" class="form-control" name="email" id="email" required="required">
       </div>
 
       <div class="mb-4">
-        <label for="message" class="form-label">Massage*</label>
+        <label for="message" class="form-label">内容*</label>
         <textarea name="message" id="message" class="form-control" required="required"></textarea>
       </div>
       <div class="btn-container">
-        <button type="button" name="contact-btn" class="btn btn-light">Submit</button>
+        <button type="button" name="contact-btn" class="btn btn-light">提交</button>
       </div>
     </form>
   </section>
@@ -100,7 +100,7 @@
     </div>
     <div class="row">
       <div class="col">
-        © 2022 Muran Tang
+        © 2022 唐慕燃 版权所有
       </div>
     </div>
   </footer>
