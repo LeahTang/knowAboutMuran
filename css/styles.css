@@ -29,6 +29,7 @@ h3 {
 .btn-container {
   width: inherit;
   text-align: right;
+
 }
 
 .cn {
@@ -113,6 +114,10 @@ h3 {
 
 .text-white {
   color: #fff;
+}
+
+#fundationYear-img {
+  background-image: url("image/uic.png");
 }
 
 #message {
