@@ -13,405 +13,411 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  <script src="js/mypage.js" type="text/javascript"></script>
 </head>
 
 <body>
-  <section class="section-navbar">
-    <!-- Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand site-title" href="" style="font-size: 2rem;">Know about Muran</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler011" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse bg-black text-center" id="navbarToggler011">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item header-nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item header-nav-item">
-              <a class="nav-link" href="#skill">Skills</a>
-            </li>
-            <li class="nav-item header-nav-item">
-              <a class="nav-link" href="#education">Educations</a>
-            </li>
-            <li class="nav-item header-nav-item">
-              <a class="nav-link" href="#work">Work</a>
-            </li>
-            <li class="nav-item header-nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item dropdown header-nav-item">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink011" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Language
+  <!--Page Loading-->
+  <div class="loader" id="loader-index"></div>
+  <div class="loaded" id="loaded-index">
+    <section class="section-navbar">
+      <!-- Nav Bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand site-title" href="" style="font-size: 2rem;">Know about Muran</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler011" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse bg-black text-center" id="navbarToggler011">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item header-nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item header-nav-item">
+                <a class="nav-link" href="#skill">Skills</a>
+              </li>
+              <li class="nav-item header-nav-item">
+                <a class="nav-link" href="#education">Educations</a>
+              </li>
+              <li class="nav-item header-nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item header-nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown header-nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink011" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Language
+                </a>
+                <ul class="dropdown-menu text-center bg-black" aria-labelledby="navbarDropdownMenuLink011">
+                  <li><a class="dropdown-item header-nav-item text-white" href="index.html">English</a></li>
+                  <li><a class="dropdown-item header-nav-item text-white cn" href="index-chinese.html">中文</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="page-title-section" id="about">
+      <div class="container-fluid content-wrapper">
+        <h2 id="greeting">My name is Muran Tang. I'm a programmer.</h2>
+        <p class="text-start fs-4">
+          <em>I'm currently avaliable for </em>
+          <a class="section-about-link" href="leahtang21@outlook.com"><em>placement or internship</em></a>
+          <em>.</em>
+        </p>
+      </div>
+    </section>
+
+    <!--Page Image Section-->
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-8 col-sm-12">
+          <img src="image/profile-img.png" class="img-fluid" alt="profile-image">
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <p class="content-small">I'm studing in Newcastle University. For me, major in computer
+            science isn't just for advance study, but more for fun.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Skill Section-->
+    <section class="page-section" id="skill">
+      <div class="page-section-wrapper">
+        <h3>I am a person that loves a challenge and enjoys learning new things.
+          After entering university, I got lots of time to do things that I like.
+          I enjoy trying new things, and develop new skills. I registered for some
+          courses on the internet to learn the skills that would not be taught or
+          only touched the surface in my school. There is no doubt that I learned
+          some important technical skills at uni. Also, I spent my spare time
+          enhancing the skills used in now a day media.</h3>
+      </div>
+    </section>
+
+    <!--Long Columns Section-->
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>Web Development</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          <div class="row">
+            <div class="col-12">
+              I have a year of web development experience and worked as a
+              full-stack developer. Mainly, I used Flask to develop websites.
+              I spent extra time doing advanced systematic learning web
+              development by finishing the course on Udemy. As you have seen,
+              the web page, you looking at, is built by me. Also, I and college
+              fellows developed a website to tackle the climate action of the UN
+              Sustainable Development Project.
+            </div>
+            <div class="col-12 text-end">
+              <a href="projects-in-uni.html" class="section-about-link">
+                <em>Find out related projects.</em>
               </a>
-              <ul class="dropdown-menu text-center bg-black" aria-labelledby="navbarDropdownMenuLink011">
-                <li><a class="dropdown-item header-nav-item text-white" href="index.html">English</a></li>
-                <li><a class="dropdown-item header-nav-item text-white cn" href="index-chinese.html">中文</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </section>
-
-  <section class="page-title-section" id="about">
-    <div class="container-fluid content-wrapper">
-      <h2>My name is Muran Tang. I'm a programmer.</h2>
-      <p class="text-start fs-4">
-        <em>I'm currently avaliable for </em>
-        <a class="section-about-link" href="leahtang21@outlook.com"><em>placement or internship</em></a>
-        <em>.</em>
-      </p>
-    </div>
-  </section>
-
-  <!--Page Image Section-->
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-8 col-sm-12">
-        <img src="image/profile-img.png" class="img-fluid" alt="profile-image">
-      </div>
-      <div class="col-lg-4 col-sm-12">
-        <p class="content-small">I'm studing in Newcastle University. For me, major in computer
-          science isn't just for advance study, but more for fun.</p>
-      </div>
-    </div>
-  </section>
-
-  <!--Skill Section-->
-  <section class="page-section" id="skill">
-    <div class="page-section-wrapper">
-      <h3>I am a person that loves a challenge and enjoys learning new things.
-        After entering university, I got lots of time to do things that I like.
-        I enjoy trying new things, and develop new skills. I registered for some
-        courses on the internet to learn the skills that would not be taught or
-        only touched the surface in my school. There is no doubt that I learned
-        some important technical skills at uni. Also, I spent my spare time
-        enhancing the skills used in now a day media.</h3>
-    </div>
-  </section>
-
-  <!--Long Columns Section-->
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>Web Development</h3>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        <div class="row">
-          <div class="col-12">
-            I have a year of web development experience and worked as a
-            full-stack developer. Mainly, I used Flask to develop websites.
-            I spent extra time doing advanced systematic learning web
-            development by finishing the course on Udemy. As you have seen,
-            the web page, you looking at, is built by me. Also, I and college
-            fellows developed a website to tackle the climate action of the UN
-            Sustainable Development Project.
-          </div>
-          <div class="col-12 text-end">
-            <a href="projects-in-uni.html" class="section-about-link">
-              <em>Find out related projects.</em>
-            </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>Object-Oriented Programming</h3>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        <div class="row">
-          <div class="col-12">
-            Since entering university, I have developed lots of projects using
-            object-oriented programming technic. I used it in different
-            programming languages, for instance, I developed a timetable
-            system for computing school using Java.
-          </div>
-          <div class="col-12 text-end">
-            <a href="projects-in-uni.html" class="section-about-link">
-              <em>Find out related projects.</em>
-            </a>
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>Object-Oriented Programming</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          <div class="row">
+            <div class="col-12">
+              Since entering university, I have developed lots of projects using
+              object-oriented programming technic. I used it in different
+              programming languages, for instance, I developed a timetable
+              system for computing school using Java.
+            </div>
+            <div class="col-12 text-end">
+              <a href="projects-in-uni.html" class="section-about-link">
+                <em>Find out related projects.</em>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>Microsoft Office</h3>
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>Microsoft Office</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          Proficient in the use of Microsoft office. Skilled in utilising Word for
+          text editing and modification. Expertise in extracting, analysing, and
+          visualising large volumes of data using Excel. Competent in the use of
+          PowerPoint for presentation materials and posters.
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        Proficient in the use of Microsoft office. Skilled in utilising Word for
-        text editing and modification. Expertise in extracting, analysing, and
-        visualising large volumes of data using Excel. Competent in the use of
-        PowerPoint for presentation materials and posters.
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>Photoshop</h3>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        <div class="row">
-          <div class="col-12">
-            Self-learning Photoshop. Skilled in using PS to modify photographs,
-            for example by changing exposure and tone to convey different
-            emotions. Have experience to make time-lapse photography for
-            image evolution using PS.
-          </div>
-          <div class="col-12 text-end">
-            <a href="art-portfolio.html" class="section-about-link">
-              <em>Find out my portfolio.</em>
-            </a>
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>Photoshop</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          <div class="row">
+            <div class="col-12">
+              Self-learning Photoshop. Skilled in using PS to modify photographs,
+              for example by changing exposure and tone to convey different
+              emotions. Have experience to make time-lapse photography for
+              image evolution using PS.
+            </div>
+            <div class="col-12 text-end">
+              <a href="art-portfolio.html" class="section-about-link">
+                <em>Find out my portfolio.</em>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>Video Clips</h3>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        <div class="row">
-          <div class="col-12">
-            Know to use iMovie to clip videos. I often clip videos for my
-            vlogs on my channel. I used the technic on modifying my result
-            of image learning, which aims to clearly show how well the
-            algorithm does.
-          </div>
-          <div class="col-12 text-end">
-            <a href="art-portfolio.html" class="section-about-link">
-              <em>Find out my portfolio.</em>
-            </a>
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>Video Clips</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          <div class="row">
+            <div class="col-12">
+              Know to use iMovie to clip videos. I often clip videos for my
+              vlogs on my channel. I used the technic on modifying my result
+              of image learning, which aims to clearly show how well the
+              algorithm does.
+            </div>
+            <div class="col-12 text-end">
+              <a href="art-portfolio.html" class="section-about-link">
+                <em>Find out my portfolio.</em>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>Self-media Operations</h3>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        <div class="row">
-          <div class="col-12">
-            I have a channel on XiaoHongShu, a platform similar to Instagram or
-            TikTok. Mainly, I share my experience of studying abroad and
-            travel vlogs.
-          </div>
-          <div class="col-12 text-end">
-            <a href="art-portfolio.html" class="section-about-link">
-              <em>Find out my portfolio.</em>
-            </a>
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>Self-media Operations</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          <div class="row">
+            <div class="col-12">
+              I have a channel on XiaoHongShu, a platform similar to Instagram or
+              TikTok. Mainly, I share my experience of studying abroad and
+              travel vlogs.
+            </div>
+            <div class="col-12 text-end">
+              <a href="art-portfolio.html" class="section-about-link">
+                <em>Find out my portfolio.</em>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>English</h3>
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>English</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          I have been learning English since I was in kindergarten.
+          As it is my second language, I can speak it very fluently.
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        I have been learning English since I was in kindergarten.
-        As it is my second language, I can speak it very fluently.
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>Chinese</h3>
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>Chinese</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          My native language is Mandarin Chinese. I can understand Cantonese as well.
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        My native language is Mandarin Chinese. I can understand Cantonese as well.
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>Korean</h3>
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>Korean</h3>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          I am at the A1 level. I can understand and commutate in daily conversation.
+        </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        I am at the A1 level. I can understand and commutate in daily conversation.
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Page Image Section-->
-  <section class="page-section">
-    <div class="row">
-      <div class="col">
-        <img src="image/content-img-03.png" class="img-fluid" alt="content-iamge01">
+    <!--Page Image Section-->
+    <section class="page-section">
+      <div class="row">
+        <div class="col">
+          <img src="image/content-img-03.png" class="img-fluid" alt="content-iamge01">
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Eduction Section-->
-  <section class="page-section" id="education">
-    <div class="page-section-wrapper">
-      <h3>Since I was a child, I was always surrounded by the latest technology
-        devices not only because my father majored in computer science but also,
-        because he is into the things related to technology. Growing up with my
-        father, his passion for computer science has affected me a lot and, of cause,
-        he taught me the basic knowledge of computers. With my interest and knowledge
-        of computers, I am never afraid to use the computer or other new devices.
-        Carrying enthusiasm, I chose computer science as my major. To maxim my
-        experience in studying computer science, I attended each lecture, join
-        every lab practice, and worked hard on every given project. As result,
-        I extinct in all the courses I enrolled in.</h3>
-      <p class="text-start fs-4">
-        <em>
-          <a class="section-about-link" href="projects-in-uni.html">Know more about the projects I done in university.</a>
-        </em>
-      </p>
-    </div>
-  </section>
+    <!--Eduction Section-->
+    <section class="page-section" id="education">
+      <div class="page-section-wrapper">
+        <h3>Since I was a child, I was always surrounded by the latest technology
+          devices not only because my father majored in computer science but also,
+          because he is into the things related to technology. Growing up with my
+          father, his passion for computer science has affected me a lot and, of cause,
+          he taught me the basic knowledge of computers. With my interest and knowledge
+          of computers, I am never afraid to use the computer or other new devices.
+          Carrying enthusiasm, I chose computer science as my major. To maxim my
+          experience in studying computer science, I attended each lecture, join
+          every lab practice, and worked hard on every given project. As result,
+          I extinct in all the courses I enrolled in.</h3>
+        <p class="text-start fs-4">
+          <em>
+            <a class="section-about-link" href="projects-in-uni.html">Know more about the projects I done in university.</a>
+          </em>
+        </p>
+      </div>
+    </section>
 
-  <!--Page Image Section-->
-  <section class="page-section" id="education">
-    <div class="row">
-      <div class="col-lg-4 col-sm-12 order-lg-first order-md-last order-sm-last">
-        <p class="content-small">
-          The time that I enjoy most on campus is in the lab.
-          It is one of the most fun things in my life that sat with a group of
-          people, discussed the things we wanted to do, and helped each other
-          to solve problems.</p>
+    <!--Page Image Section-->
+    <section class="page-section" id="education">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12 order-lg-first order-md-last order-sm-last">
+          <p class="content-small">
+            The time that I enjoy most on campus is in the lab.
+            It is one of the most fun things in my life that sat with a group of
+            people, discussed the things we wanted to do, and helped each other
+            to solve problems.</p>
+        </div>
+        <div class="col-lg-8 col-sm-12 order-lg-last order-md-first order-sm-first">
+          <img src="image/content2-img02.png" class="img-fluid" alt="content2-image">
+        </div>
       </div>
-      <div class="col-lg-8 col-sm-12 order-lg-last order-md-first order-sm-first">
-        <img src="image/content2-img02.png" class="img-fluid" alt="content2-image">
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Work Experience Section-->
-  <section class="page-section" id="work">
-    <div class="page-section-wrapper">
-      <h3>I believe that learning should not be divorced from industrial
-        practice. During working, I learned new skills and found the specialist
-        field that I want to continue to learn during my future school life.</h3>
-    </div>
-  </section>
+    <!--Work Experience Section-->
+    <section class="page-section" id="work">
+      <div class="page-section-wrapper">
+        <h3>I believe that learning should not be divorced from industrial
+          practice. During working, I learned new skills and found the specialist
+          field that I want to continue to learn during my future school life.</h3>
+      </div>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>
-          <em>Operation Specialist Intern</em>
-        </h3>
-        <h4>Alipay.com Co Ltd</h4>
-        July 2021 – Sept 2021
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        Working in the business development department, my main responsibility
-        was data screening and analysis by Excel. In some projects, my job was
-        to communicate with business managers. <br> <br>
-        I have learned a lot from this internship. First thing is that focus on
-        solving the problems instead of complaining about the person who made
-        them. Second, I learned how to work happily and live seriously. Why
-        not work seriously and live happily? In my opinion, The reason
-        why many people think it should be written as 'serious work' is that
-        traditionally, people see work as a task, a chore. So, one has to force
-        oneself to be responsible. But, if people love their work, they
-        will take it seriously. Moreover, there will be a spirit of innovation,
-        a spirit of risk-taking, a willingness to take responsibility, and so
-        on. So it is more fundamental to be happy with my work and to love what I do.
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>
+            <em>Operation Specialist Intern</em>
+          </h3>
+          <h4>Alipay.com Co Ltd</h4>
+          July 2021 – Sept 2021
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          Working in the business development department, my main responsibility
+          was data screening and analysis by Excel. In some projects, my job was
+          to communicate with business managers. <br> <br>
+          I have learned a lot from this internship. First thing is that focus on
+          solving the problems instead of complaining about the person who made
+          them. Second, I learned how to work happily and live seriously. Why
+          not work seriously and live happily? In my opinion, The reason
+          why many people think it should be written as 'serious work' is that
+          traditionally, people see work as a task, a chore. So, one has to force
+          oneself to be responsible. But, if people love their work, they
+          will take it seriously. Moreover, there will be a spirit of innovation,
+          a spirit of risk-taking, a willingness to take responsibility, and so
+          on. So it is more fundamental to be happy with my work and to love what I do.
 
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h3>
-          <em>Teaching Assistant</em>
-        </h3>
-        <h4>EF Education First</h4>
-        Dec 2021 – May 2021
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 content-md">
-        Mainly responsible for feedback on students’ learning situation to parents,
-        provided some targeted learning advice. Acted as a bridge of communication
-        between teacher and parents, and feedback parents’ opinions to teachers.<br><br>
-        One thing I got from this job is patience. I worked with teachers and students in
-        classes. Since the students were still in kindergarten, I had to be as patient as
-        possible to help them to learn. Another thing that I developed is the skill of
-        communication. It is inevitable that people are in a mood. Sometimes the parents
-        were not happy with the teachers and sometimes the teachers were not happy with
-        the parents. At this time, it is my job to have a conversation with parents or
-        teachers. I think the keys to communication are being patient, thinking in
-        another place, and then giving positive feedback. The not happy problems
-        in the job could usually be solved by communication.
+    <section class="page-section">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h3>
+            <em>Teaching Assistant</em>
+          </h3>
+          <h4>EF Education First</h4>
+          Dec 2021 – May 2021
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 content-md">
+          Mainly responsible for feedback on students’ learning situation to parents,
+          provided some targeted learning advice. Acted as a bridge of communication
+          between teacher and parents, and feedback parents’ opinions to teachers.<br><br>
+          One thing I got from this job is patience. I worked with teachers and students in
+          classes. Since the students were still in kindergarten, I had to be as patient as
+          possible to help them to learn. Another thing that I developed is the skill of
+          communication. It is inevitable that people are in a mood. Sometimes the parents
+          were not happy with the teachers and sometimes the teachers were not happy with
+          the parents. At this time, it is my job to have a conversation with parents or
+          teachers. I think the keys to communication are being patient, thinking in
+          another place, and then giving positive feedback. The not happy problems
+          in the job could usually be solved by communication.
 
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section">
-    <div class="row">
-      <div class="col-12">
-        <img src="image/content-img01.png" class="img-fluid" alt="content-iamge01">
+    <section class="page-section">
+      <div class="row">
+        <div class="col-12">
+          <img src="image/content-img01.png" class="img-fluid" alt="content-iamge01">
+        </div>
+        <div class="col-12" style="text-align: end;">
+          <em>Filming by Disha Gulati</em>
+        </div>
+        <div class="col-12" style="text-align: end;">
+          <em>Editing by Muran Tang</em>
+        </div>
       </div>
-      <div class="col-12" style="text-align: end;">
-        <em>Filming by Disha Gulati</em>
-      </div>
-      <div class="col-12" style="text-align: end;">
-        <em>Editing by Muran Tang</em>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="page-section" id="contact">
-    <div class="row justify-content-md-center">
-      <div class="col" style="text-align:center;">
-        <h3>
-          Question?
-          <a class="section-about-link" href="contact.html">Tickle Me.</a>
-        </h3>
+    <section class="page-section" id="contact">
+      <div class="row justify-content-md-center">
+        <div class="col" style="text-align:center;">
+          <h3>
+            Question?
+            <a class="section-about-link" href="contact.html">Tickle Me.</a>
+          </h3>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="row">
-      <div class="col">
-        <a href="www.linkedin.com/in/muran-tang">
-          <img class="footer-icon" src="image/linkedin.png" alt="linkedin-icon">
-        </a>
-        <a href="#">
-          <img class="footer-icon" src="image/twitter.png" alt="linkedin-icon">
-        </a>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <a href="www.linkedin.com/in/muran-tang">
+            <img class="footer-icon" src="image/linkedin.png" alt="linkedin-icon">
+          </a>
+          <a href="#">
+            <img class="footer-icon" src="image/twitter.png" alt="linkedin-icon">
+          </a>
 
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        © 2022 Muran Tang
+      <div class="row">
+        <div class="col">
+          © 2022 Muran Tang
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+
+  </div>
 
 </body>
 
