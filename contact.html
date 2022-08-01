@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -16,24 +17,24 @@
 <body>
   <section class="section-navbar">
     <!-- Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand site-title" href="index.html" style="font-size: 2rem;">Know about Muran</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler12" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center" id="navbarToggler01">
+        <div class="collapse navbar-collapse text-center" id="navbarToggler12">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item header-nav-item">
               <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item dropdown header-nav-item">
-              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink12" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Language
               </a>
-              <ul class="dropdown-menu text-center bg-black" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item header-nav-item text-white" href="index.html">English</a></li>
-                <li><a class="dropdown-item header-nav-item text-white cn" href="chinese-index.html">中文</a></li>
+              <ul class="dropdown-menu text-center bg-black" aria-labelledby="navbarDropdownMenuLink12">
+                <li><a class="dropdown-item header-nav-item text-white" href="#">English</a></li>
+                <li><a class="dropdown-item header-nav-item text-white cn" href="contact-chinese.html">中文</a></li>
               </ul>
             </li>
           </ul>
@@ -46,13 +47,16 @@
     <div class="container-fluid content-wrapper-contact">
       <h2>Get in touch.</h2>
       <p class="text-start fs-5">
+        Muran Tang <br>
+        Newcastle University <br>
+        Newcastle upon Tyne, NE1 7RU <br>
         leahtang21@outlook.com
       </p>
     </div>
   </section>
 
   <section class="page-section-contact">
-    <form action="index.html" method="post">
+    <form id="contact-form" action="mailto:leahtang21@outlook.com" method="post" enctype="text/plain">
       <div class="mb-4">
         <label for="Name" class="form-label">Name*</label>
         <div id="Name" class="row">
@@ -81,7 +85,7 @@
         <textarea name="message" id="message" class="form-control" required="required"></textarea>
       </div>
       <div class="btn-container">
-        <button type="button" name="contact-btn" class="btn btn-light">Submit</button>
+        <input type="submit" name="contactSubmit" value="Send" class="btn btn-light">
       </div>
     </form>
   </section>

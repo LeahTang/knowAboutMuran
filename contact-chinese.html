@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+<html>
 
 <head>
   <meta charset="utf-8">
-  <title>Contact</title>
+  <title>联系方式</title>
   <link rel="favicon" href="favicon.ico?v=2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,24 +17,24 @@
 <body class="cn">
   <section class="section-navbar">
     <!-- Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand site-title" href="index.html" style="font-size: 2rem;">Know about Muran</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand site-title" href="index-chinese.html" style="font-size: 2rem;">Know about Muran</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler22" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center" id="navbarToggler01">
+        <div class="collapse navbar-collapse text-center" id="navbarToggler22">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item header-nav-item">
               <a class="nav-link" href="index-chinese.html">关于</a>
             </li>
             <li class="nav-item dropdown header-nav-item">
-              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink22" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 语言
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item header-nav-item" href="index.html">English</a></li>
-                <li><a class="dropdown-item header-nav-item" href="chinese-index.html">中文</a></li>
+              <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdownMenuLink22">
+                <li><a class="dropdown-item header-nav-item text-white" href="contact.html">English</a></li>
+                <li><a class="dropdown-item header-nav-item text-white cn" href="#">中文</a></li>
               </ul>
             </li>
           </ul>
@@ -46,13 +47,17 @@
     <div class="container-fluid content-wrapper-contact">
       <h2>联系方式.</h2>
       <p class="text-start fs-5">
+        唐慕燃<br>
+        纽卡斯尔大学<br>
+        英国泰恩河畔纽卡斯尔<br>
+        NE1 7RU<br>
         leahtang21@outlook.com
       </p>
     </div>
   </section>
 
   <section class="page-section-contact">
-    <form action="index.html" method="post">
+    <form id="contact-form" action="mailto:leahtang21@outlook.com" method="post" enctype="text/plain">
       <div class="mb-4">
         <label for="Name" class="form-label">姓名*</label>
         <div id="Name" class="row">
@@ -81,7 +86,7 @@
         <textarea name="message" id="message" class="form-control" required="required"></textarea>
       </div>
       <div class="btn-container">
-        <button type="button" name="contact-btn" class="btn btn-light">提交</button>
+        <input type="submit" name="contactSubmit" value="提交" class="btn btn-light">
       </div>
     </form>
   </section>
