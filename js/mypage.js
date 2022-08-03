@@ -1,7 +1,7 @@
 
 /*Loader quiting*/
 
-window.onload = setTimeout(quitLoader, 3000);
+window.onload = setTimeout(quitLoader, 5000);
 
 
 function quitLoader() {
