@@ -1,8 +1,13 @@
 body {
-  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #000, #191919);
+  /* color: #fff;
   font-family: 'Cormorant Infant', serif;
   background-color: black;
-  overflow-y: scroll;
+  overflow-y: scroll; */
 }
 
 footer {
@@ -33,7 +38,12 @@ h3 {
 }
 
 .cn {
-  font-family: PMingLiU;
+  font-family: 'Noto Serif SC', serif;
+}
+
+.cn-site-title {
+  font-size: 2rem;
+  font-family: 'Liu Jian Mao Cao', cursive;
 }
 
 .content-small {
@@ -82,6 +92,35 @@ h3 {
   font-size: calc((1.2 - 1) * 1.2vw + 1rem);
 }
 
+.loaded {
+  display: none;
+}
+
+.loader {
+  width: 125px;
+  position: relative;
+  perspective: 200px;
+}
+
+.loader::before,
+.loader::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  position: absolute;
+  animation: jumping 0.5s ease infinite alternate;
+}
+
+.loader::before {
+  left: 0;
+}
+
+.loader::after {
+  right: 0;
+  animation-delay: 0.15s;
+}
+
 .page-section {
   padding-right: 15vw;
   padding-left: 20vw;
@@ -125,10 +164,10 @@ h3 {
   color: #fff;
 }
 
-.uni-body {
+/* .uni-body {
   color: #4a4a4a;
   background-color: white;
-}
+} */
 
 .uni-heading {
   padding-top: 4.5vw;
@@ -202,6 +241,19 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
+}
+
+
+@keyframes jumping {
+  0% {
+    transform: scale(1) translateY(0) rotateX(0);
+    box-shadow: 0 0 0 transparent;
+  }
+  100% {
+    background-color: #fff;
+    transform: scale(1.2) translateY(-55px) rotateX(45deg);
+    box-shadow: 0 55px 100px #fff;
+  }
 }
 
 /* @keyframes blink {
